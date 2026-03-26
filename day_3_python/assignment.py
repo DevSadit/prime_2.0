@@ -26,3 +26,17 @@
 
 # merged.sort()
 # print(merged)
+
+
+# 4.
+# t = (1, 3, 5, 3, 8, 5, 6, 4)
+# even = ()
+# odd = ()
+# for i in t:
+#     if i % 2 == 0:
+#         even = even + (i,)
+#     else:
+#         odd = odd + (i,)
+
+# print(even)
+# print(odd)
