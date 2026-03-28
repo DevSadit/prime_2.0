@@ -1,6 +1,7 @@
 # sets -> collection of unique elements
 s = {1, 2, 3, 3, 6}
 s.add(10)
+print(type(s))
 # print(s)s
 
 empty_set = set()

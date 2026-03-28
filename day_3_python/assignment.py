@@ -64,3 +64,23 @@
 #         count += 1
 
 # print(f"there are {count} spaces.")
+
+
+# 8
+
+# l1 = [1, 2, 3]
+# l2 = [4, 5, 6]
+
+# s1 = set(l1)
+# s2 = set(l2)
+
+# # print(s1, s2)
+
+# intersection = s1.intersection(s2)
+# # print(intersection)
+
+
+# if len(intersection) == 0:
+#     print("The lists share no common elements.")
+# else:
+#     print("The lists share common elements:", intersection)
