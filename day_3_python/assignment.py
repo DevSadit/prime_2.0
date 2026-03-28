@@ -84,3 +84,24 @@
 #     print("The lists share no common elements.")
 # else:
 #     print("The lists share common elements:", intersection)
+
+
+# 9
+# numbers = [1, 2, 3, 2, 4, 5, 1, 6, 3]
+
+# repeated = set()
+
+# for item in numbers:
+#     if numbers.count(item) > 1:
+#         repeated.add(item)
+
+# print("Repeated elements are:", repeated)
+
+
+# 10
+# text = input("Enter a string: ")
+
+# unique_chars = set(text)
+
+# print("Unique characters are:", unique_chars)
+# print("Count of unique characters:", len(unique_chars))
