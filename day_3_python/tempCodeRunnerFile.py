@@ -1,2 +1,4 @@
+# words = ["apple", "banana", "kiwi", "cherry", "mango"]
+# word_len = {}
 
-print(merged)
+# for word in words:

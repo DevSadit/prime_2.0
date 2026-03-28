@@ -40,3 +40,14 @@
 
 # print(even)
 # print(odd)
+
+
+# 6.
+# words = ["apple", "banana", "kiwi", "cherry", "mango"]
+# word_len = {}
+
+# for word in words:
+#     word_len[word] = len(word)
+
+# print(word_len)
+# print(type(word_len))
