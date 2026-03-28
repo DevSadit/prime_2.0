@@ -51,3 +51,16 @@
 
 # print(word_len)
 # print(type(word_len))
+
+
+# 7.
+
+# txt = input("provide a text: ")
+# blank = " "
+# count = 0
+
+# for t in txt:
+#     if t == blank:
+#         count += 1
+
+# print(f"there are {count} spaces.")
