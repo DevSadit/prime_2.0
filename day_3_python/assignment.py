@@ -105,3 +105,52 @@
 
 # print("Unique characters are:", unique_chars)
 # print("Count of unique characters:", len(unique_chars))
+
+
+# 5.
+
+students = {}
+
+while True:
+    print("\nChoose an option:")
+    print("A. Add a student")
+    print("B. Update marks")
+    print("C. Search for a student")
+    print("D. Display all students and marks")
+    print("E. Exit")
+
+    option = input()
+
+    if option == "A":
+        name = input("Provide the name of the student: ")
+        marks = int(input("Provide the marks of the student: "))
+        students[name] = marks
+        print("\nstudent added succesfully..")
+
+    elif option == "B":
+        name = input("Provide the name of the student: ")
+        if name in students:
+            marks = int(input("Provide the updated marks: "))
+            students[name] = marks
+            print(f"{name}'s marks updated succesfully.")
+        else:
+            print(f"no student exist with this name..")
+
+    elif option == "C":
+        name = input("Provide the name of the student: ")
+        if name in students:
+            print(f"{name} is in the student object")
+        else:
+            print(f"{name} doesn't exist in the student object")
+
+    elif option == "D":
+        print("student and marks")
+        for name in students:
+            print(f"{name}::- {students[name]}")
+
+    elif option == "E":
+        print("exited from the programe..")
+        break
+
+    else:
+        print("you entered something wrong..")
