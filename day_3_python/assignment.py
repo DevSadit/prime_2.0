@@ -139,9 +139,9 @@ while True:
     elif option == "C":
         name = input("Provide the name of the student: ")
         if name in students:
-            print(f"{name} is in the student object")
+            print(f"{name}'s marks are {students[name]}")
         else:
-            print(f"{name} doesn't exist in the student object")
+            print(f"No student exists with this name.")
 
     elif option == "D":
         print("student and marks")
