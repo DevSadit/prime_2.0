@@ -11,5 +11,9 @@ class Student:
 
 
 s1 = Student()
-print(s1.subject)
-print(s1.year)
+# print(s1.subject)
+# print(s1.year)
+
+# class have -
+# 1. properties / attributes
+# 2. behaviour / methods
